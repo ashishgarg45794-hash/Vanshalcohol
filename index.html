@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Barrel Liquor</title>
+    <meta name="description"
+        content="Premium alcohol shop offering an exclusive collection of whisky, wine, beer, and premium spirits.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Outfit:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading Animation -->
+    <div id="loader" class="loader">
+        <div class="glow-ring"></div>
+        <div class="loader-text">Royal Barrel</div>
+    </div>
+
+    <!-- Sticky Navigation -->
+    <header id="navbar" class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Royal <span>Barrel</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <h1 class="reveal-text">Raise the Standard</h1>
+            <p class="reveal-text delay-1">Discover premium spirits and exclusive collections curated for the true
+                connoisseur. Experience luxury in every drop.</p>
+            <a href="#collection" class="btn btn-glow reveal-btn delay-2">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about section-padding">
+        <div class="container about-container">
+            <div class="about-text scroll-reveal">
+                <h2>The Legacy of Taste</h2>
+                <div class="divider"></div>
+                <p>At Royal Barrel Liquor, our passion lies in sourcing the world's most exceptional and rarest spirits.
+                    We believe in authenticity, unparalleled quality, and delivering an unforgettable customer
+                    experience. Whether you're seeking a rare vintage or the perfect evening pour, our selection
+                    represents the pinnacle of craftsmanship.</p>
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <span class="counter" data-target="25">0</span><span class="stat-plus">+</span>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="stat-box">
+                        <span class="counter" data-target="1500">0</span><span class="stat-plus">+</span>
+                        <p>Brands Available</p>
+                    </div>
+                    <div class="stat-box">
+                        <span class="counter" data-target="10000">0</span><span class="stat-plus">+</span>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image scroll-reveal fade-right">
+                <div class="img-wrapper glow-border">
+                    <img id="about-img" src="assets/about.png" alt="Premium Bar Collection">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Collection Section -->
+    <section id="collection" class="collection section-padding bg-darker">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Our Collection</h2>
+                <div class="divider center"></div>
+                <p>Explore our masterfully curated selection of fine beverages.</p>
+            </div>
+            <div class="grid categories-grid">
+                <!-- Whisky -->
+                <div class="category-card scroll-reveal fade-up">
+                    <div class="card-img">
+                        <img id="whisky-img" src="assets/whisky.png" alt="Premium Whisky">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Rare Whisky</h3>
+                        <p>Aged to perfection, offering deep, complex flavors and smooth finishes.</p>
+                        <span class="price">From $75</span>
+                        <a href="#" class="btn btn-outline glow-hover">View Details</a>
+                    </div>
+                </div>
+                <!-- Wine -->
+                <div class="category-card scroll-reveal fade-up delay-1">
+                    <div class="card-img">
+                        <img id="wine-img" src="assets/wine.png" alt="Exclusive Wine">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Vintage Wine</h3>
+                        <p>Exquisite selections from the finest vineyards around the globe.</p>
+                        <span class="price">From $45</span>
+                        <a href="#" class="btn btn-outline glow-hover">View Details</a>
+                    </div>
+                </div>
+                <!-- Beer -->
+                <div class="category-card scroll-reveal fade-up delay-2">
+                    <div class="card-img">
+                        <img id="beer-img" src="assets/beer.png" alt="Craft Beer">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Craft Beer</h3>
+                        <p>Bold, refreshing, and crafted by passionate independent brewers.</p>
+                        <span class="price">From $15</span>
+                        <a href="#" class="btn btn-outline glow-hover">View Details</a>
+                    </div>
+                </div>
+                <!-- Premium Spirits -->
+                <div class="category-card scroll-reveal fade-up delay-3">
+                    <div class="card-img">
+                        <img id="spirits-img" src="assets/spirits.png" alt="Premium Spirits">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Premium Spirits</h3>
+                        <p>Distinctive rums, vodkas, and gins to elevate your mixology.</p>
+                        <span class="price">From $55</span>
+                        <a href="#" class="btn btn-outline glow-hover">View Details</a>
+                    </div>
+                </div>
+                <!-- Champagne -->
+                <div class="category-card scroll-reveal fade-up">
+                    <div class="card-img">
+                        <img id="champagne-img" src="assets/champagne.png" alt="Premium Champagne">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Vintage Champagne</h3>
+                        <p>Celebrate life's best moments with our exclusive sparkling wines.</p>
+                        <span class="price">From $120</span>
+                        <a href="#" class="btn btn-outline glow-hover">View Details</a>
+                    </div>
+                </div>
+                <!-- Tequila -->
+                <div class="category-card scroll-reveal fade-up delay-1">
+                    <div class="card-img">
+                        <img id="tequila-img" src="assets/tequila.png" alt="Aged Tequila">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Aged Tequila</h3>
+                        <p>Artisanal reposado and añejo selections for smooth sipping.</p>
+                        <span class="price">From $85</span>
+                        <a href="#" class="btn btn-outline glow-hover">View Details</a>
+                    </div>
+                </div>
+                <!-- Cognac -->
+                <div class="category-card scroll-reveal fade-up delay-2">
+                    <div class="card-img">
+                        <img id="cognac-img" src="assets/cognac.png" alt="Luxury Cognac">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Luxury Cognac</h3>
+                        <p>Deep, amber brilliance offering rich aromas and unparalleled depth.</p>
+                        <span class="price">From $150</span>
+                        <a href="#" class="btn btn-outline glow-hover">View Details</a>
+                    </div>
+                </div>
+                <!-- Gin -->
+                <div class="category-card scroll-reveal fade-up delay-3">
+                    <div class="card-img">
+                        <img id="gin-img" src="assets/gin.png" alt="Craft Gin">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Craft Gin</h3>
+                        <p>Botanical masterpieces perfect for refreshing and elegant cocktails.</p>
+                        <span class="price">From $45</span>
+                        <a href="#" class="btn btn-outline glow-hover">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section id="offers" class="offers section-padding">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Special Offers</h2>
+                <div class="divider center"></div>
+                <p>Exclusive deals on our finest selections for a limited time.</p>
+            </div>
+            <div class="offer-banner scroll-reveal scale-up glow-border">
+                <div class="offer-content">
+                    <h3>Weekend Grand Reserve Sale</h3>
+                    <p>Get up to 30% off on all vintage wines and aged whiskies. Elevate your weekend celebrations.</p>
+                    <a href="#collection" class="btn btn-glow">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="why-us section-padding bg-darker">
+        <div class="container">
+            <div class="section-title scroll-reveal">
+                <h2>Why Choose Us</h2>
+                <div class="divider center"></div>
+            </div>
+            <div class="grid features-grid">
+                <div class="feature-item scroll-reveal fade-up">
+                    <div class="feature-icon glow-text">⭐</div>
+                    <h3>Premium Brands</h3>
+                    <p>We source only documented, high-quality authentic brands directly from trusted distillers.</p>
+                </div>
+                <div class="feature-item scroll-reveal fade-up delay-1">
+                    <div class="feature-icon glow-text">🍷</div>
+                    <h3>Wide Selection</h3>
+                    <p>An unparalleled variety of drinks catering to every taste preference and occasion.</p>
+                </div>
+                <div class="feature-item scroll-reveal fade-up delay-2">
+                    <div class="feature-icon glow-text">🥇</div>
+                    <h3>Trusted Quality</h3>
+                    <p>Every bottle is stored in optimal conditions to guarantee perfect taste and authenticity.</p>
+                </div>
+                <div class="feature-item scroll-reveal fade-up delay-3">
+                    <div class="feature-icon glow-text">💎</div>
+                    <h3>Best Prices</h3>
+                    <p>Luxury doesn't always have to come with a markup. We offer competitive pricing on premium goods.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container contact-container">
+            <div class="contact-info scroll-reveal fade-right">
+                <h2>Get in Touch</h2>
+                <div class="divider"></div>
+                <p>Have a question or looking for a specific bottle? Contact our concierge team.</p>
+                <ul class="contact-details">
+                    <li><span class="glow-text">📍</span> 123 Luxury Avenue, Metropolis, NY 10012</li>
+                    <li><span class="glow-text">📞</span> +1 (555) 123-4567</li>
+                    <li><span class="glow-text">✉️</span> concierge@royalbarrel.com</li>
+                    <li><span class="glow-text">🕒</span> Mon-Sat: 10:00 AM - 11:00 PM</li>
+                </ul>
+            </div>
+            <div class="contact-form-wrapper scroll-reveal fade-left">
+                <form id="contact-form" class="glow-border-subtle" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                        <span class="error-message">Please enter your name</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        <span class="error-message">Please enter a valid email address</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="How can we assist you?"></textarea>
+                        <span class="error-message">Please enter your message</span>
+                    </div>
+                    <button type="submit" class="btn btn-glow submit-btn">Send Message <span
+                            class="spinner"></span></button>
+                    <div class="success-message" id="success-msg">Message sent successfully!</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-darker">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">Royal <span>Barrel</span></a>
+                <p>Experience the finest taste of luxury and elegance.</p>
+                <div class="social-links">
+                    <a href="#" class="glow-hover-icon">FB</a>
+                    <a href="#" class="glow-hover-icon">IG</a>
+                    <a href="#" class="glow-hover-icon">TW</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Royal Barrel Liquor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
